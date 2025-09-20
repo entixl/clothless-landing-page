@@ -3,71 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Nosifer&family=Patrick+Hand&family=Rubik+Puddles&display=swap"
+      rel="stylesheet"
+    />
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="navbar">
-      <h1 class="logo">Header Logo</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#">Header Link One</a></li>
-          <li><a href="#">Header Link Two</a></li>
-          <li><a href="#">Header Link Three</a></li>
-        </ul>
-      </nav>
+    <header class="navbar" id="home">
+      <h2 class="logo">CLOTHLESS</h2>
+      <ul class="nav-links">
+        <li><a href="#home">home</a></li>
+        <li><a href="#gallery">gallery</a></li>
+        <li><a href="https://github.com/entixl">github</a></li>
+      </ul>
     </header>
 
     <section class="hero">
       <div class="hero-content">
-        <h2 class="hero-title">This website is awesome</h2>
+        <h1 class="hero-title">Show your TRUE self</h1>
         <p class="hero-subtitle">
-          This website has some subtext that goes here under the main title.
-          It’s a smaller font and the color is lower contrast.
+          contact CLOTHLESS is a luxury fashion brand offering the ultimate in
+          invisible clothing.
         </p>
-        <button class="btn btn-primary">Sign Up</button>
+        <button class="btn btn-primary">Click To Order</button>
       </div>
       <div class="hero-image">
-        <img src="" alt="Placeholder for an image" />
+        <img
+          src="images/tshirtless.png"
+          alt="invisible shoe fr"
+          width="200px"
+        />
       </div>
     </section>
 
-    <section class="features">
-      <h3 class="section-title">Some Random Information</h3>
+    <section class="gallery" id="gallery">
+      <h3 class="section-title">Browse our gallery and find your true self</h3>
       <div class="feature-list">
         <div class="feature-item">
-          <img src="" alt="Illustration" class="feature-image" />
-          <p class="feature-text">
-            This is some subtext under an illustration or image
-          </p>
+          <img
+            src="images/pantless.jpg"
+            alt="Illustration"
+            class="feature-image"
+          />
+          <p class="feature-text">pants(formal , unisex)</p>
         </div>
         <div class="feature-item">
-          <img src="" alt="Illustration" class="feature-image" />
-          <p class="feature-text">
-            This is some subtext under an illustration or image
-          </p>
+          <img
+            src="images/shirtless.jpg"
+            alt="Illustration"
+            class="feature-image"
+          />
+          <p class="feature-text">shirts (all gender)</p>
         </div>
         <div class="feature-item">
-          <img src="" alt="Illustration" class="feature-image" />
-          <p class="feature-text">
-            This is some subtext under an illustration or image
-          </p>
+          <img
+            src="images/women.jpg"
+            alt="Illustration"
+            class="feature-image"
+          />
+          <p class="feature-text">women only section</p>
         </div>
         <div class="feature-item">
-          <img src="" alt="Illustration" class="feature-image" />
-          <p class="feature-text">
-            This is some subtext under an illustration or image
-          </p>
+          <img
+            src="images/background-img.webp"
+            alt="Illustration"
+            class="feature-image"
+          />
+          <p class="feature-text">accesories section(all gender)</p>
         </div>
       </div>
     </section>
 
     <section class="testimonial">
-      <blockquote class="testimonial-text">
-        “This is an inspiring quote, or a testimonial from a customer. Maybe
-        it’s just filling up space, or maybe people will actually read it. Who
-        knows? All I know is that it looks nice.”
-      </blockquote>
-      <cite class="testimonial-author">– Thor, God of Thunder</cite>
+      <div class="testimonial-text">
+        “CLOTHLESS brand is the literally the best and everyone should try it” –
+        Jhon Cena
+      </div>
+      <img src="images/blank.jpg" alt="" height="300px" width="200px" />(pic of
+      jhon cena wearing clothless)
     </section>
 
     <section class="cta">
@@ -78,7 +95,7 @@
         </p>
       </div>
       <div class="cta-action">
-        <button class="btn btn-primary">Sign Up</button>
+        <button class="btn btn-primary">Order Now</button>
       </div>
     </section>
 

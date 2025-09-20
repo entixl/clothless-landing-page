@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Gliker-Black";
+  src: url("fonts/Gliker-Black.woff2");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: rgb(27, 198, 178);
+  min-width: 500px;
+  background-color: #751d2d;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  gap: 20px;
+}
+body > * {
+  border-bottom: 8px #450e18 solid;
+  padding: 24px;
+}
+a {
+  /* text-decoration: none; */
+  color: rgb(27, 198, 178);
+}
+
+h1,
+h3 {
+  font-family: "Gliker-Black", sans-serif;
+}
+
+h1 {
+  font-size: 39px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.navbar,
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.navbar {
+  justify-content: space-between;
+}
+.hero {
+  justify-content: center;
+}
+.hero-content,
+.gallery,
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-content {
+  align-items: flex-start;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  list-style: none;
+}
+
+.logo {
+  font-family: "Rubik Puddles", system-ui;
+  color: white;
+}
+
+.btn {
+  background-color: #fecb66;
+  border: 3px solid #450e18;
+  border-radius: 25px;
+  padding: 5px 15px;
+  font-size: 25px;
+  font-weight: bold;
+  align-self: center;
+  margin: 20px;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.feature-image {
+  height: 30vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
