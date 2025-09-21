@@ -53,7 +53,7 @@ h3 {
 }
 .navbar {
   justify-content: space-between;
-  position:fixed;
+  position:relative;
 }
 .hero {
   justify-content: center;
